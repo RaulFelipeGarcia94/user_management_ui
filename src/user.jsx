@@ -8,7 +8,7 @@ import {
   Create,
 } from "react-admin";
 
-export const EventList = (props) => (
+export const UserList = (props) => (
   <List {...props}>
     <Datagrid rowClick="edit">
       <TextField source="id" />
@@ -19,7 +19,7 @@ export const EventList = (props) => (
   </List>
 );
 
-export const EventEdit = () => (
+export const UserEdit = () => (
   <Edit>
     <SimpleForm>
       <TextInput source="name" />
@@ -29,7 +29,7 @@ export const EventEdit = () => (
   </Edit>
 );
 
-export const EventCreate = () => (
+export const UserCreate = () => (
   <Create>
     <SimpleForm>
       <TextInput source="name" />
